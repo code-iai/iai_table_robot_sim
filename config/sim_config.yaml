@@ -1,0 +1,32 @@
+simulated_joints:
+  - shoulder_pan_joint
+  - shoulder_lift_joint
+  - elbow_joint
+  - wrist_1_joint
+  - wrist_2_joint
+  - wrist_3_joint
+  - gripper_base_gripper_left_joint
+  - gripper_joint
+
+controlled_joints:
+  - shoulder_pan_joint
+  - shoulder_lift_joint
+  - elbow_joint
+  - wrist_1_joint
+  - wrist_2_joint
+  - wrist_3_joint
+  - gripper_base_gripper_left_joint
+  - gripper_joint
+
+start_config:
+  shoulder_pan_joint: 0.0
+  shoulder_lift_joint: -0.9
+  elbow_joint: 0.9
+  wrist_1_joint: 0.0
+  wrist_2_joint: 0.0
+  wrist_3_joint: 0.0
+  gripper_base_gripper_left_joint: 0.0
+  gripper_joint: 0.0
+projection_mode: false
+sim_frequency: 100
+watchdog_period: 0.1
